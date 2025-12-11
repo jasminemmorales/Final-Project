@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titling}
+
+\geometry{a4paper, margin=1in}
+
+\title{Design Specifications}
+\author{
+    Jasmine Morales\\
+    Tiana Luu\\
+    Kira Ma\\
+    Linda Tien\\
+}
+\date{December 2025}
+
+\setlength{\droptitle}{6cm}
+
+\pagestyle{fancy}
+\fancyhead[L]{Design Specifications}
+\fancyhead[R]{Page \thepage}
+\fancyfoot[C]{}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\end{titlepage}
+
+\section*{Packages and Dependencies}
+
+\subsection*{Front-End (React.js)}
+\begin{itemize}
+    \item Node.js (version 18 or higher): JavaScript runtime environment.
+    \item npm (version 9 or higher): Package manager.
+    \item React.js (react, react-dom, react-scripts): Core frontend framework.
+    \item React Router (react-router-dom): For navigation and routing.
+    \item Bootstrap / Material UI: For UI components and responsive design.
+    \item Axios: For HTTP requests to backend services.
+\end{itemize}
+
+\subsection*{Back-End (Node.js/Express)}
+\begin{itemize}
+    \item Express.js: Web application framework for Node.js.
+    \item body-parser: Middleware for handling JSON requests.
+    \item cors: Middleware for cross-origin resource sharing.
+    \item dotenv: For environment variable management.
+    \item jsonwebtoken (JWT): For authentication and authorization.
+    \item bcrypt: For password hashing.
+    \item multer: For file uploads.
+    \item nodemon: For automatic server restarts during development.
+\end{itemize}
+
+\subsection*{Database Management (MongoDB)}
+\begin{itemize}
+    \item MongoDB: NoSQL database for storing project data.
+    \item Mongoose: ODM library for interacting with MongoDB.
+    \item MongoDB Compass: GUI for database management.
+\end{itemize}
+
+\section*{Libraries}
+\begin{itemize}
+    \item React Router
+    \item Axios
+    \item Bootstrap / Material UI
+    \item bcrypt
+    \item jsonwebtoken
+    \item multer
+    \item nodemon
+    \item Mongoose
+\end{itemize}
+
+\section*{Deployment and Hosting}
+\begin{itemize}
+    \item NGINX: Reverse proxy and static file server.
+    \item Docker: Containerization of frontend, backend, and database services.
+    \item AWS EC2 / Heroku: Cloud hosting options.
+\end{itemize}
+
+\end{document}
+
