@@ -6,3 +6,12 @@ docs/Software_Requirement_Specification/SRS_v1.docx
 docs/Software_Design_Document/SDD_v1.docx
 **/README.md
 
+# Node dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Environment files
+.env
