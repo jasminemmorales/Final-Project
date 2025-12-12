@@ -6,7 +6,7 @@ administrators, and end users who wish to install, test, or extend the system.
 
 
 Jira Project Link
-Jira Project URL: https://jasminemiamorales.atlassian.net/jira/software/projects/FP/summary 
+Jira Project URL: https://cs3338-group-12.atlassian.net/jira/software/projects/APUIS/boards/68?sprintStarted=true&atlOrigin=eyJpIjoiMjZjNTJkNTdmMjAyNDU5OWIxNmFjMzUyYmY4MDE1ODMiLCJwIjoiaiJ9
 
 Formal Objective Breakdown:
 The primary objective is to implement the foundation for a centralized AI-powered university
